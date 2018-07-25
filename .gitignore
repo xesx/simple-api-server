@@ -1,0 +1,27 @@
+# Dependency directory
+node_modules
+static
+package-lock.json
+*.log
+
+# Redis
+dump.rdb
+
+# Archive
+*.rar
+
+# IDE
+.idea
+
+#tar
+*.tar
+
+#images
+*.jpg
+*.jpeg
+*.png
+*.giff
+*.ico
+
+#mac os
+.DS_Store

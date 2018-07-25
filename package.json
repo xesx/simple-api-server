@@ -1,0 +1,32 @@
+{
+  "name": "simple-api-server",
+  "version": "1.0.0",
+  "description": "simple api server",
+  "main": "./src/app.js",
+  "repository": {
+    "type": "git"
+  },
+  "scripts": {
+    "start": "NODE_ENV=dev NODE_PATH=../override:.:./src node src/app.js"
+  },
+  "author": "Alexey Alekhin",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "bluebird": "3.5.0",
+    "body-parser": "1.16.0",
+    "colors": "1.1.2",
+    "eslint": "5.2.0",
+    "eslint-config-airbnb-base": "13.0.0",
+    "eslint-plugin-import": "2.13.0",
+    "express": "4.14.0",
+    "express-formidable": "1.0.0",
+    "formidable": "1.1.1",
+    "fs-extra": "5.0.0",
+    "glob": "7.1.2",
+    "http-status": "1.2.0",
+    "image-size": "0.6.3",
+    "jimp": "^0.2.28",
+    "mongodb": "2.2.22",
+    "mongoose": "4.12.4"
+  }
+}
